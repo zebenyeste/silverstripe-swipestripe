@@ -1,3 +1,171 @@
 es:
   ShopAdmin:
     MENUTITLE: Tienda
+  ShopAdmin_Attribute:
+    MENUTITLE: 'Atributos de los productos de la tienda'
+  ShopAdmin_BaseCurrency:
+    MENUTITLE: 'Tipo de moneda en la tienda'
+  ShopAdmin_EmailAdmin:
+    MENUTITLE: 'Correos de la tienda'
+  AccountPage:
+    CANNOT_VIEW_ORDER: 'Usted no puede ver los pedidos que no le pertenecen.'
+    DATE: Fecha
+    DESCRIPTION: 'Contenido general de la página'
+    NO_ORDERS: 'Usted actualmente no tiene ningún pedido. En el futuro será capaz de ver sus pedidos más recientes aquí.'
+    NO_ORDER_EXISTS: 'El pedido no existe.'
+    PLURALNAME: 'Páginas de la cuenta'
+    SINGULARNAME: 'Página de la cuenta'
+    STATUS: Estado
+    TOTAL: Total
+    VIEW_THIS_ORDER: 'Ver este pedido'
+  AccountPage_order:
+    WARNING: Aviso!
+  Attribute:
+    PLURALNAME: Atributos
+    SINGULARNAME: Atributo
+  Attribute_Default:
+    PLURALNAME: Atributos
+    SINGULARNAME: Atributo
+  BackLink_Button_ss:
+    Back: Atrás
+  CMSLoadingScreen_ss:
+    LOADING: Cargando...
+    REQUIREJS: 'El CMS requiere que tenga habilitado JavaScript.'
+  CartForm:
+    GO_TO_CHECKOUT: 'Ir al pedido'
+    NOTE: 'Observación:'
+    NO_ITEMS_IN_CART: 'No hay artículos en su cesta.'
+    POWERED_BY: 'creado por'
+    PRICE: Precio
+    PRODUCT: Producto
+    QUANTITY: Cantidad
+    TOTAL: Total
+    UPDATE_CART: 'Actualizar cesta'
+  CartPage:
+    DESCRIPTION: 'Contenido general de la página'
+    PLURALNAME: 'Páginas de la cesta'
+    SINGULARNAME: 'Página de la cesta'
+  CheckoutFormOrder:
+    LOADING: Cargando...
+    NO_ITEMS_IN_CART: 'No hay artículos en su cesta.'
+    PRICE: Precio
+    PRODUCT: Producto
+    QUANTITY: Cantidad
+    SUB_TOTAL: 'Subtotal'
+    TOTAL: Total
+    YOUR_ORDER: 'Su pedido'
+  CheckoutPage:
+    ACCOUNT: Cuenta
+    ALREADY_MEMBER: 'Si usted ya es miembro %s inicie sesión. %s'
+    DESCRIPTION: 'Contenido general de la página'
+    EMAIL: Correo
+    MEMBER_ALREADY_EXISTS: 'Lo sentimos, ya existe un miembro con esa dirección de correo electrónico. Si esta es su dirección de correo electrónico, por favor inicie sesión antes de realizar su pedido.'
+    NOTE: 'Observación:'
+    NOTES_ABOUT_ORDER: 'Observaciones sobre este pedido'
+    NOT_VALID_METHOD: 'Lo sentimos, este no es un método de pago válido.'
+    PASSWORD: Contraseña
+    PAYMENT: Pago
+    PLEASE_CHOOSE_PASSWORD: 'Por favor elija una contraseña para que pueda iniciar sesión y comprobar su historial de pedidos en el futuro.'
+    PLEASE_ENTER_EMAIL_ADDRESS: 'Por favor introduzca su dirección de correo electrónico.'
+    PLURALNAME: 'Páginas del pedido'
+    PROCEED_TO_PAY: 'Proceda a pagar'
+    SELECT_PAYMENT_METHOD: 'Por favor, seleccione un método de pago.'
+    SINGULARNAME: 'Página del pedido'
+    TRY_AGAIN: 'Por favor, regrese y vuelva a intentarlo.'
+  Customer:
+    PLURALNAME: Clientes
+    SINGULARNAME: Cliente
+  Form:
+    ITEM_IS_NOT_IN_ORDER: 'Este producto no está en el pedido.'
+    ITEM_QUANTITY_INCORRECT: 'La cantidad debe ser inferior a 2,147,483,647'
+    ITEM_QUANTITY_LESS_ONE: 'La cantidad debe ser al menos 0'
+    ORDER_IS_NOT_VALID: 'Su cesta parece estar vacía, añada un artículo de la tienda'
+    VALIDATIONFAILED: 'Error de validación'
+  GridFieldDetailForm:
+    CancelBtn: Cancelar
+    Create: Crear
+    Delete: Eliminar
+    Save: Guardar
+  Item:
+    PLURALNAME: Artículos
+    SINGULARNAME: Artículo
+  ItemOption:
+    PLURALNAME: 'Opciones del artículo'
+    SINGULARNAME: 'Opción del artículo'
+  LeftAndMain:
+    PreviewButton: Vista previa
+  Modification:
+    PLURALNAME: Modificaciones
+    SINGULARNAME: Modificación
+  Option:
+    PLURALNAME: Opciones
+    SINGULARNAME: Opción
+  Option_Default:
+    PLURALNAME: Opciones
+    SINGULARNAME: Opción
+  Order:
+    PLURALNAME: Pedidos
+    PRICE: Precio
+    PRODUCT: Producto
+    QUANTITY: Cantidad
+    SINGULARNAME: Pedido
+    SUB_TOTAL: 'Subtotal'
+    TOTAL: Total
+  OrderAdmin:
+    ORDER: Pedido
+  OrderNotes:
+    NOTES: Observaciones
+  OrderPayments:
+    AMOUNT: Importe
+    DATE: Fecha
+    PAYMENT: Pago
+    PAYMENT_STATUS: 'Estado del pago'
+    TOTAL_OUTSTANDING: 'Total pendiente'
+  Order_NotificationEmail:
+    LOGIN: 'Inicie sesión en el CMS para gestionar el pedido'
+    ORDER: Pedido
+  Order_ReceiptEmail:
+    GREETING: Hola
+    ORDER: Pedido
+    PAYMENTNOTICE: 'Tenga en cuenta que los pedidos no serán enviados hasta que el pago se haya procesado correctamente.'
+    VIEW_ORDER: 'Ver este pedido'
+  Order_Update:
+    PLURALNAME: Actualizaciones
+    SINGULARNAME: Actualización
+  Product:
+    DESCRIPTION: 'Contenido general de la página'
+    FREE: Gratis
+    PLURALNAME: Productos
+    SINGULARNAME: Producto
+  ProductForm:
+    ADD_TO_CART: 'Añadir a la cesta'
+    BASE_CURRENCY_NOT_SET: 'El tipo de moneda no se ha establecido.'
+    ITEM_QUANTITY_INCORRECT: 'La cantidad debe ser inferior a 2,147,483,647'
+    ITEM_QUANTITY_LESS_ONE: 'La cantidad debe ser al menos 1'
+    PRODUCT_ADDED: 'El producto fue añadido a la cesta.'
+    PRODUCT_ADDED_LINK: 'El producto fue añadido a {openanchor}la cesta{closeanchor}.'
+    QUANTITY: Cantidad
+    VARIATIONS_REQUIRED: 'Seleccione las opciones de este producto antes de añadirlo a la cesta.'
+  ShopConfig:
+    BASE_CURRENCY: 'Moneda'
+    BASE_CURRENCY_SYMBOL: 'Símbolo de la moneda'
+    BASE_CURRENCY_WARNING: "\n				 Aviso: El tipo de moneda no está definido, por favor establezca el tipo de moneda en el área de configuración antes de continuar\n		 "
+    FROM: De
+    MESSAGE: Mensaje
+    MESSAGE_DETAILS: 'Los detalles del pedido están al final del correo'
+    NOTIFICATION_FROM: 'Dirección de correo electrónico del cliente'
+    PLURALNAME: Ajustes
+    RECEIPT_TO: 'Enviado al cliente'
+    SIGNATURE: Firma
+    SINGULARNAME: Ajustes
+    SUBJECT_LINE: 'Asunto'
+    TO: A
+  SiteTree:
+    PLURALNAME: Páginas
+    SINGULARNAME: Página
+  Variation:
+    PLURALNAME: Variaciones
+    SINGULARNAME: Variación
+  Variation_Options:
+    PLURALNAME: 'Opciones de variación'
+    SINGULARNAME: 'Opciones de variación'
